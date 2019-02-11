@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Facebook</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<style>
+body{
+  background-color:#ccc;
+  font-family: segoe UI;
+}
+#navv{
+  background-color: black;
+  padding:20px;
+  color: white;
+}
+</style>
+<body>
+<div class="container-fluid" id="navv">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Facebook</h1>  
+        </div>
+        <form class="form-group">
+        <div class="col-md-2">
+        <label>E-mail:</label>
+        <input class="form-control" type="email" name="email" placeholder="enter your email">
+        </div>
+        <div class="col-md-2">
+        <label>Password:</label>
+          <input class="form-control" type="email" name="email" placeholder="password">
+          <a href="#" style="color:white;text-decoration:none;"><p>Forgot password?</p></a>
+        </div>
+        <div class="col-md-2">
+        <br><button class="btn btn-success">Login</button>
+        </div>
+        </form>
+      </div>  
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <br><br>
+        <img src="images/img1.jpg" class="img-reponsive img-circle">
+      </div>
+      <div class="col-md-6">
+      <h3><b>Create a new account</b></h3>
+      <p>Its free and will always be</p>
+        <form class="form-group" method="post" action="signup.php">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Firstname:</label>
+                <input class="form-control" type="name" name="firstname" placeholder="enter your firstname">   
+              </div>
+              <div class="col-md-6">
+                <label>Lastname:</label>
+                <input class="form-control" name="lastname" placeholder="enter your lastname">   
+              </div>
+              <div class="col-md-6">
+                <label>Mobile number or email:</label>
+                <input class="form-control" name="email" placeholder="enter your mobile number or email">   
+              </div>
+              <div class="col-md-6">
+                <label>Password:</label>
+                <input class="form-control" name="password" placeholder="enter your password">   
+              </div>
+              <div class="col-md-6">
+                <label>Date of Birth:</label>
+                <input class="form-control" type="date" name="DOB">   
+              </div>
+              <div class="col-md-6">
+                  <input type="radio" name="gender"><label>Male</label>
+                  <input type="radio" name="gender"><label>Female</label>
+              </div>
+            </div><br>
+            <p>By clicking create Account, you agree to our term Terms and confirm 
+               that you have read our Data policy, including our Cookies use policy
+               you may recieve SMS message notification from.
+               Facebook and can opt out at any time.<p>
+                <br><center><button type="submit" class="btn btn-success">Sign up</button></center>
+            </div>
+        </form>
+      </div>
+      
+    </div>
+  
+
+</div>
+
+</body>
+</html>
